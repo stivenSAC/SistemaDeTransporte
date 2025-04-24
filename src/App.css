@@ -1,0 +1,177 @@
+/* Archivo: App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.main-container {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e3a8a;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(to right, #3b82f6, #60a5fa);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem auto;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #1e3a8a;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+/* Estilos personalizados para medios de transporte e íconos */
+
+.bus_urbano {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tren_suburbano {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.teleferico {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.terminal {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.terminal1 {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.aeropuerto {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.aeropuerto1 {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.mapa_rutas {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bandera_villa_viento {
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.escudo_villa_viento {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 15px;
+}
+
+
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-end;
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
